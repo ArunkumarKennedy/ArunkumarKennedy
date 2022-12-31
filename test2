@@ -1,0 +1,6 @@
+How do I Delete a local repository branch?
+How to delete local Git branches
+Open a Git BASH window or Command Window in the root of your Git repository.
+If necessary, use the git switch or checkout command to move off the branch you wish to delete.
+Issue the git branch --delete <branchname> ...
+Run the git branch -a command to verify the local Git branch is deleted.
